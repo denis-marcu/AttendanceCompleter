@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApp.jnlp">
+  <information>
+    <title>AttendanceCompleter</title>
+    <vendor>Unknown</vendor>
+    <description>AttendanceCompleter</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApp.jar" size="1614692" download="eager" />
+    <jar href="opencsv-3.8.jar" size="64417" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="ro.usv.attendance.Main"  name="AttendanceCompleter" />
+  <update check="background"/>
+</jnlp>
